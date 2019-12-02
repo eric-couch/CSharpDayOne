@@ -6,9 +6,9 @@ namespace HelloWorld
 {
     class Dog
     {
-        String Breed { get; set; }
-        String Name { get; set; }
-        float Weight { get; set; }
+        public String Breed { get; set; }
+        public String Name { get; set; }
+        public float Weight { get; set; }
 
         public String Bark()
         {
