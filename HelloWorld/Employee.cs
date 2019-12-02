@@ -17,5 +17,10 @@ namespace HelloWorld
             Age = age;
             YearsWithCompany = yearsWithCompany;
         }
+
+        public override string ToString()
+        {
+            return "Name: " + this.Name + "\n" + "Age: " + this.Age + "\n" + "YearsWithCompany: " + this.YearsWithCompany;
+        }
     }
 }
